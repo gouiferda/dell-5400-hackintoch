@@ -11,9 +11,9 @@ EFI Folder (Clover) and config required for dell latitude 5400 Hackintosh wiith 
 Wifi doesn't work | You will need an external wifi usb adapter (Like TL-WN725N)
 Bluetooth doesn't work | Replace the internal wifi card with a supported one
 How can I dual boot with windows or linux | Watch the tutorial (from bottom link)
-Updating the system might be risky | Don't update the system
-mess with clover efi files might be risky | Don't change them
-No detection of laptop lid closing | Coming soon
+Messing with clover efi files might be risky | Boot EFI from USB
+Updating the system might be risky | N/A
+No detection of laptop lid closing | N/A
 HDMI port doesn't work | N/A
 Issues with audio jack | N/A
 
