@@ -2,9 +2,11 @@
 
 EFI Folder (Clover) and config required for dell latitude 5400 Hackintosh wiith macOS Catalina
 
+![Image](https://i.imgur.com/OtSV3bk.png)
+
 ## Issues and fixes
 
-Issue | Fix
+:x: Issue | :wrench: Fix
 ------------ | -------------
 Wifi doesn't work | You will need an external wifi usb adapter (Like TL-WN725N)
 Bluetooth doesn't work | Replace the internal wifi card with a supported one
