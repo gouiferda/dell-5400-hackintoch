@@ -35,6 +35,7 @@ What | Why
 Dell 5400 or similiar models | Duh
 Access to a mac computer, or a macOS virtual machine | To download macOS catalina (8 GB) and copy to usb
 8 GB USB | To boot macOS installation from
+Backup your data | macOS installation requires formatting the entire drive
 
 ## Tutorial
 
