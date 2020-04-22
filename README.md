@@ -2,12 +2,15 @@
 
 EFI Folder (Clover) and config required for dell latitude 5400 Hackintosh Catalina 10.15
 
-## Issues
+## Issues and fixes
 
-- No wifi: you will need an external wifi usb adapter (Like TL-WN725N)
-- No bluetooth
-- No detection of laptop lid closing (soon to be fixed)
-- HDMI port
+Issue | Fix
+------------ | -------------
+Wifi doesn't work | you will need an external wifi usb adapter (Like TL-WN725N)
+Bluetooth doesn't work | Replace the internal wifi card with a supported one
+No detection of laptop lid closing | Coming soon
+HDMI port doesn't work | N/A
+Issues with audio jack | N/A
 
 ## What works
 
@@ -15,17 +18,19 @@ EFI Folder (Clover) and config required for dell latitude 5400 Hackintosh Catali
 
 ## Requirements
 
-- dell 5400 or similiar models
-- access to a mac computer, or a macOS virtual machine
-- Usb of at least 8 GB to boot macOS installation from
+What | Why
+------------ | -------------
+dell 5400 or similiar models | duh
+Access to a mac computer, or a macOS virtual machine | To download macOS catalina (8 GB) and copy to usb
+USB 8 GB | to boot macOS installation from
 
-## Tutorial
-
-- https://www.youtube.com/watch?v=eFnZF3rgS0o
-
-## Important
+## After the installation
 
 - You will still be able to dual boot with windows or linux 
 - Disable catalina updated: don't update the system
 - Don't mess with clover efi files cause it might ruin your only way to boot to the system (fix: boot clover efi from USB)
+
+## Tutorial
+
+- https://www.youtube.com/watch?v=eFnZF3rgS0o
 
