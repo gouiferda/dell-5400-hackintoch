@@ -9,7 +9,7 @@ EFI Folder (Clover) and config required for dell latitude 5400 Hackintosh wiith 
 - [Issues](#issues)
 - [What works](#what-works)
 - [Requirements](#requirements)
-- [Tutorial](#tutorial)
+- [How/Tutorial](#tutorial)
 
 ## Issues
 
@@ -24,21 +24,20 @@ Updating the system might be risky | N/A
 No detection of laptop lid closing | N/A
 HDMI port doesn't work | N/A
 
-
 ## What works
 
 - Everything else not mentioned in issues (That doesn't have a fix... yet)
 
 ## Requirements
 
-What | Why
+What will I need | Why
 ------------ | -------------
 Dell 5400 or similiar models | Duh
 Access to a mac computer, or a macOS virtual machine | To download macOS catalina (8 GB) and copy to usb
 8 GB USB | To boot macOS installation from
 Backup your data | macOS installation requires formatting the entire drive
 
-## Tutorial
+## How/Tutorial
 
 - https://www.youtube.com/watch?v=eFnZF3rgS0o
 
