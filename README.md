@@ -6,10 +6,12 @@ EFI Folder (Clover) required for dell latitude 5400 Hackintosh wiith macOS Catal
 
 ## Table of contents
 
-- [Issues](#issues)
-- [What works](#what-works)
+
 - [Requirements](#requirements)
 - [How/Tutorial](#howtutorial)
+- [Recommended BIOS settings](#recommended-bios-settings)
+- [Issues](#issues)
+- [What works](#what-works)
 
 ## Requirements
 
@@ -75,4 +77,4 @@ Trackpad Pinch To Zoom/Tap to Zoom​ gestures | N/A
 
 ## What works
 
-- Everything else not mentioned in issues (That doesn't have a fix... yet)
+- Everything else not mentioned in issues (That doesn't have a fix ... yet)
