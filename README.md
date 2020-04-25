@@ -32,7 +32,8 @@ Important: The tutorial video below has the exact same process that works for th
 - Boot Sequence:
     - Boot List Option = UEFI (-> Boot Sequence list will be set accordingly) 
 - UEFI Boot Path Security:
-    - Never (or whatever other value) 
+    - Never (or whatever other value)
+
 **System Configuration**
 - SATA Operation = AHCI
 - USB PowerShare:
@@ -42,14 +43,18 @@ Important: The tutorial video below has the exact same process that works for th
 - Keyboard Backlight on AC:
     - Any desired setting 
 - Keyboard Backlight on Battery:
-    - Any desired setting 
+    - Any desired setting
+
 **Video**
-- LCD Brightness = Whatever settings you prefer 
+- LCD Brightness = Whatever settings you prefer
+
 **Security**
-- SMM Security Mitigator = Off 
+- SMM Security Mitigator = Off
+
 **Power Management**
 - Enable lid Switch = On
 - Primary Battery Charge Configuration = Express Charge (or any other choice) 
+
 **Virtualization Support**
 - VT for Direct I/O = Disabled 
 
