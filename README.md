@@ -11,7 +11,6 @@ Guide and EFI Folder (Clover), to how to install a fully dunctioning Hackintoch 
 
 ## Table of contents
 
-
 - [Requirements](#requirements)
 - [How/Tutorial](#howtutorial)
 - [Recommended BIOS settings](#recommended-bios-settings)
@@ -82,4 +81,4 @@ Trackpad Pinch To Zoom/Tap to Zoom​ gestures | N/A
 
 ## What works
 
-- Everything else not mentioned in issues (That doesn't have a fix ... yet)
+- Everything else not mentioned in the issues table, Other fixes coming soon
