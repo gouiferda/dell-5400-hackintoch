@@ -1,6 +1,11 @@
 # dell-5400-hackintoch
 
-EFI Folder (Clover) required for dell latitude 5400 Hackintosh wiith macOS Catalina, Watch the tutorial video linked below to have an idea about the process
+Guide and EFI Folder (Clover), to how to install a fully dunctioning Hackintoch of macOS Catalina on Dell latitude 5400
+
+**:warning: Important:**
+- Watch the tutorial video linked below to have an idea about the process
+- EFI Folder (Clover) required for this process is included in this repository
+- You may risk your data or your system, so follow instructions at your own risk
 
 ![Image](https://i.imgur.com/OtSV3bk.png)
 
@@ -63,7 +68,7 @@ Important: The tutorial video below has the exact same process that works for th
 
 ## Issues
 
-:x: Issue | :wrench: Fix
+:construction: Issue | :wrench: Fix
 ------------ | -------------
 Wifi doesn't work | You will need an external wifi usb adapter (Like TL-WN725N)
 Bluetooth doesn't work | Replace the internal wifi card with a supported one
