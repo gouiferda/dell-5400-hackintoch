@@ -23,6 +23,7 @@ Audio jack Issues | <ol><li>Open EFI agent app , mount EFI</li><li>Copy all kext
 Updating the system might be risky | N/A
 No detection of laptop lid closing | N/A
 HDMI port doesn't work | N/A
+No touch screen | N/A
 
 ## What works
 
