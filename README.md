@@ -1,6 +1,6 @@
 # dell-5400-hackintoch
 
-EFI Folder (Clover) and config required for dell latitude 5400 Hackintosh wiith macOS Catalina
+EFI Folder (Clover) required for dell latitude 5400 Hackintosh wiith macOS Catalina, Watch the tutorial video linked below to have an idea about the process
 
 ![Image](https://i.imgur.com/OtSV3bk.png)
 
@@ -38,6 +38,8 @@ Access to a mac computer, or a macOS virtual machine | To download macOS catalin
 Backup your data | macOS installation requires formatting the entire drive
 
 ## How/Tutorial
+
+Important: The tutorial video below has the exact same process that works for the Dell Latitude 5400, the only difference is with the EFI folder used, the EFI folder and the EFI Agent app that you will need for Dell 5400 is in this github repo.
 
 - https://www.youtube.com/watch?v=eFnZF3rgS0o
 
