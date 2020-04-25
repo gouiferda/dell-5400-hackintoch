@@ -63,7 +63,7 @@ Bluetooth doesn't work | Replace the internal wifi card with a supported one
 How can I dual boot with windows or linux | Watch the tutorial (from bottom link)
 Can't boot after changing EFI | Copy EFI folder (in this repo) to a USB and boot from it
 Audio jack Issues | <ol><li>Open EFI agent app , mount EFI</li><li>Copy all kexts that exist in: <br/>/Volumes/EFI/EFI/CLOVER/kexts/Other<br/>to:<br/>/Library/Extensions</li><li> Copy and execute this command in Terminal, to repair permissions and rebuild your cache:<br/>``` sudo chmod -Rf 755 /S*/L*/E*;sudo chmod -Rf 755 /L*/E*;sudo chown -Rf 0:0 /S*/L*/E*;sudo chown -Rf 0:0 /L*/E* ;sudo kextcache -i /  ```<br/> </li>  <li>Restart your computer for the repairs to take effect.</li></ol>
-No detection of laptop lid closing | Apply recommended bios
+Laptop doesn't sleep after closing (lid switch) | Apply recommended bios above
 HDMI port doesn't work | N/A
 No touch screen | N/A
 Trackpad Pinch To Zoom/Tap to Zoom​ gestures | N/A
