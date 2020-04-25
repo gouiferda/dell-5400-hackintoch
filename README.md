@@ -9,7 +9,7 @@ EFI Folder (Clover) and config required for dell latitude 5400 Hackintosh wiith 
 - [Issues](#issues)
 - [What works](#what-works)
 - [Requirements](#requirements)
-- [How/Tutorial](#tutorial)
+- [How/Tutorial](#howtutorial)
 
 ## Issues
 
