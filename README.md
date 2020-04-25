@@ -29,20 +29,20 @@ Important: The tutorial video below has the exact same process that works for th
 ## Recommended BIOS settings
 
 **General**
-- Boot Sequence: 
-     * Boot List Option = UEFI (-> Boot Sequence list will be set accordingly) 
-- UEFI Boot Path Security: 
-     * Never (or whatever other value) 
+- Boot Sequence:
+    - Boot List Option = UEFI (-> Boot Sequence list will be set accordingly) 
+- UEFI Boot Path Security:
+    - Never (or whatever other value) 
 **System Configuration**
 - SATA Operation = AHCI
-- USB PowerShare: 
-     * Enable USB PowerShare = On 
-- Keyboard illumination: 
-     * Bright = On (or any desired value) 
-- Keyboard Backlight on AC: 
-     * Any desired setting 
-- Keyboard Backlight on Battery: 
-     * Any desired setting 
+- USB PowerShare:
+    - Enable USB PowerShare = On 
+- Keyboard illumination:
+    - Bright = On (or any desired value) 
+- Keyboard Backlight on AC:
+    - Any desired setting 
+- Keyboard Backlight on Battery:
+    - Any desired setting 
 **Video**
 - LCD Brightness = Whatever settings you prefer 
 **Security**
