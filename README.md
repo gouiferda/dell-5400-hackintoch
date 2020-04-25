@@ -27,7 +27,7 @@ HDMI port doesn't work | N/A
 
 ## What works
 
-- Everything else not mentioned in issues
+- Everything else not mentioned in issues (That doesn't have a fix... yet)
 
 ## Requirements
 
