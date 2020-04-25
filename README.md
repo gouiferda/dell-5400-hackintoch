@@ -5,7 +5,7 @@ Guide and EFI Folder (Clover), to how to install a fully dunctioning Hackintoch 
 **:warning: Important:**
 - Watch the tutorial video linked below to have an idea about the process
 - EFI Folder (Clover) required for this process is included in this repository
-- You may risk your data or your system, so follow instructions at your own risk
+- You may risk your data or your system os, So follow instructions at your own risk !
 
 ![Image](https://i.imgur.com/OtSV3bk.png)
 
