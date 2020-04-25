@@ -33,8 +33,8 @@ HDMI port doesn't work | N/A
 What will I need | Why
 ------------ | -------------
 Dell 5400 or similiar models | Duh
-Access to a mac computer, or a macOS virtual machine | To download macOS catalina (8 GB) and copy to usb
-8 GB USB | To boot macOS installation from
+Access to a mac computer, or a macOS virtual machine | To download macOS catalina (8 GB) from the appstore, then create a bootable catalena USB
+8 GB USB | To create a bootable macOS installation from
 Backup your data | macOS installation requires formatting the entire drive
 
 ## How/Tutorial
