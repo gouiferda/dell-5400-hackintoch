@@ -70,7 +70,7 @@ Important: The tutorial video below has the exact same process that works for th
 :construction: Issue | :wrench: Fix
 ------------ | -------------
 No Wifi and bluetooth | <ul><li>You will need an external wifi usb adapter (Like TL-WN725N)</li><li>or Replace the internal wifi card with a supported one</li></ul>
-How can I dual boot with windows or linux | Watch the tutorial (from bottom link)
+How can I dual boot with windows or linux | Watch the tutorial video
 Can't boot after changing EFI | Copy EFI folder (in this repo) to a USB and boot from it
 Audio jack Issues | <ol><li>Open EFI agent app , mount EFI</li><li>Copy all kexts that exist in: <br/>/Volumes/EFI/EFI/CLOVER/kexts/Other<br/>to:<br/>/Library/Extensions</li><li> Copy and execute this command in Terminal, to repair permissions and rebuild your cache:<br/>``` sudo chmod -Rf 755 /S*/L*/E*;sudo chmod -Rf 755 /L*/E*;sudo chown -Rf 0:0 /S*/L*/E*;sudo chown -Rf 0:0 /L*/E* ;sudo kextcache -i /  ```<br/> </li>  <li>Restart your computer for the repairs to take effect.</li></ol>
 Laptop doesn't sleep after closing (lid switch) | Apply recommended bios above
