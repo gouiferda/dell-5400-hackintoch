@@ -85,4 +85,4 @@ No SD card reader | N/A
 
 ## Contact
 
-- [Email](mailto:soufiane@gouiferda.com)
+- [soufiane@gouiferda.com](mailto:soufiane@gouiferda.com)
