@@ -74,7 +74,9 @@ How can I dual boot with windows or linux | Watch the tutorial video
 Can't boot after changing EFI | Copy EFI folder (in this repo) to a USB and boot from it
 Audio jack Issues | <ol><li>Open EFI agent app , mount EFI</li><li>Copy all kexts that exist in: <br/>/Volumes/EFI/EFI/CLOVER/kexts/Other<br/>to:<br/>/Library/Extensions</li><li> Copy and execute this command in Terminal, to repair permissions and rebuild your cache:<br/>``` sudo chmod -Rf 755 /S*/L*/E*;sudo chmod -Rf 755 /L*/E*;sudo chown -Rf 0:0 /S*/L*/E*;sudo chown -Rf 0:0 /L*/E* ;sudo kextcache -i /  ```<br/> </li>  <li>Restart your computer for the repairs to take effect.</li></ol>
 Laptop doesn't sleep after closing (lid switch) | Apply recommended bios above
-No trackpad zoom​ gesture | Use a usb mouse
+Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
+Mouse issues (double click) | Use a usb mouse
+Audio issues (Goes on and off randomly) | System preferences > Sound
 No touch screen | N/A
 No HDMI | N/A
 No SD card reader | N/A
