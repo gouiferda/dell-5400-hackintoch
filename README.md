@@ -75,7 +75,7 @@ Can't boot after changing EFI | Copy EFI folder (in this repo) to a USB and boot
 Audio jack Issues | Execute the FIXER script (in this repo) and type your password then enter
 Laptop doesn't sleep after closing (lid switch) | Apply recommended bios above
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
-Audio issues (Goes on and off randomly) | System preferences > Sound
+Audio issues (Turns off randomly) | System preferences > Sound
 No touch screen | N/A
 No HDMI | N/A
 No SD card reader | N/A
