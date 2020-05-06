@@ -1,6 +1,6 @@
 # dell-5400-hackintoch
 
-Guide and EFI Folder (Clover), to how to install a fully dunctioning Hackintoch of macOS Catalina on Dell latitude 5400
+Guide and EFI Folder (Clover), to how to install a fully functioning Hackintoch of macOS Catalina on Dell latitude 5400
 
 **:warning: Important:**
 - Watch the tutorial video linked below to have an idea about the process
