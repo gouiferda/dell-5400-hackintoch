@@ -82,7 +82,7 @@ No SD card reader | N/A
 
 ## What works
 
-- Everything else not mentioned in the issues table, Other fixes coming soon
+- Everything else not mentioned in the issues table, other fixes coming soon
 
 ## Contact
 
