@@ -76,6 +76,7 @@ Audio jack Issues | Execute the FIXER script (in this repo) and type your passwo
 Laptop doesn't sleep after closing (lid switch) | Apply recommended bios mentioned above
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
 Audio issues (Turns off randomly) | in your macOS go to: "System preferences > Sound" then try
+Mouse double clicking | N/A
 No touch screen | N/A
 No HDMI | N/A
 No SD card reader | N/A
