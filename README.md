@@ -74,8 +74,8 @@ How can I dual boot with windows or linux | Watch the tutorial video
 Can't boot after changing EFI | Copy EFI folder (in this repo) to a USB and boot from it
 Audio jack Issues | Execute the FIXER script (in this repo) and type your password then enter
 Laptop doesn't sleep after closing (lid switch) | Apply recommended bios mentioned above
-Issues with trackpad (no zoom​ gesture, lag) | Temp fix: Use a usb mouse
-Audio issues (Turns off randomly) | Temp fix: in your macOS go to: "System preferences > Sound" then try
+Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
+Audio issues (Turns off randomly) | In your macOS go to: "System preferences > Sound" then try
 Mouse double clicking | N/A
 No touch screen | N/A
 No HDMI | N/A
