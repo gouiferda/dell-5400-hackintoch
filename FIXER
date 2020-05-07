@@ -10,7 +10,7 @@ echo ""
 echo "-- Mounting EFI"
 sudo diskutil mount EFI > /dev/null 2>&1
 echo "-- Copying Kexts from EFI to extensions folder"
-sudo cp $efi_kexts_path* $extentions_kexts_path
+sudo cp -R $efi_kexts_path* $extentions_kexts_path
 echo "-- Unmounting EFI"
 sudo diskutil unmount EFI > /dev/null 2>&1
 echo "-- Repair permissions and rebuilding cache"
