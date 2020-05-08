@@ -76,8 +76,8 @@ Can't boot after changing EFI | Copy EFI folder (exists in this repo) to a USB a
 Laptop doesn't sleep after closing (lid switch) | Apply recommended bios mentioned above
 Audio jack Issues | Execute the JACK_FIX script (exists in this repo /FIXES folder)
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
-Mouse double clicking | Execute the MOUSE_FIX script (exists in this repo /FIXES folder), The script will ruin the trackpad to revert its changes execute the REVER_MOUSE script
-No touch screen | Execute the INSTALL_TOUCH script (exists in this repo /EXPEREMENTAL folder)
+Mouse double clicking |  <ul><li><li>The script will ruin the trackpad, but you can revert changes later.</li><li>Open this repo in terminal:</li><li>cd DELL-5400-HACKINTOCH/FIXES</li><li>./MOUSE_FIX</li><li>To revert changes:</li><li>./REVERT_MOUSE</li></ul> 
+No touch screen |  <ul><li>Open this repo in terminal:</li><li>cd DELL-5400-HACKINTOCH/EXPEREMENTAL</li><li>./INSTALL_TOUCH</li></ul>
 No HDMI | N/A
 No SD card reader | N/A
 
