@@ -2,10 +2,11 @@
 
 Guide and EFI Folder (Clover), to how to install a fully functioning Hackintoch of macOS Catalina on Dell latitude 5400
 
-**:warning: Important:**
+**:warning: Important/Disclaimer:**
 - Watch the tutorial video linked below to have an idea about the process
 - EFI Folder (Clover) required for this process is included in this repository
-- You may risk your data or your system os, So follow instructions at your own risk !
+- This guide and anything in the repo comes with no warranty. Use at your own risk! I am not responsible if you broke your hackingtosh os
+- Always back up your data, and have another machine just in case one broke ;)
 
 ![Image](https://i.imgur.com/OtSV3bk.png)
 
