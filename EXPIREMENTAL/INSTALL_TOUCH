@@ -2,15 +2,18 @@
 
 efi_kexts_path="/Volumes/EFI/EFI/CLOVER/kexts/Other/"
 extentions_kexts_path="/Library/Extensions/"
+voodo_i2clean_kext_name="VoodooI2CELAN.kext"
+kexts_path="kexts"
 
 echo ""
-echo "AUDIO FIXER script"
-echo "This script will fix the audio jack issue"
+echo "INSTALL TOUCH SCREEN script"
+echo "This script will add touch screen support"
 echo ""
 echo "-- Mounting EFI"
 sudo diskutil mount EFI > /dev/null 2>&1
-echo "-- Copying Kexts from EFI to extensions folder"
-sudo cp -R $efi_kexts_path* $extentions_kexts_path
+echo "-- Copying new kexts to EFI kexts and extensions folder"
+sudo cp -R $kexts_path/* $efi_kexts_path
+sudo cp -R $kexts_path/* $extentions_kexts_path
 echo "-- Unmounting EFI"
 sudo diskutil unmount EFI > /dev/null 2>&1
 sudo ./REBUILD

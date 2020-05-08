@@ -22,7 +22,7 @@ sudo cp -R $kexts_path/* $efi_kexts_path
 sudo cp -R $kexts_path/* $extentions_kexts_path
 echo "-- Unmounting EFI"
 sudo diskutil unmount EFI > /dev/null 2>&1
-sudo ./RES/REBUILD
+sudo ./REBUILD
 echo ""
 echo "Finished, Reboot to see changes"
 echo ""

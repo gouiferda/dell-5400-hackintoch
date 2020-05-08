@@ -77,7 +77,7 @@ Laptop doesn't sleep after closing (lid switch) | Apply recommended bios mention
 Audio jack Issues | Execute the JACK_FIX script (exists in this repo /FIXES folder)
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
 Mouse double clicking | Execute the MOUSE_FIX script (exists in this repo /FIXES folder), The script will ruin the trackpad to revert its changes execute the REVER_MOUSE script
-No touch screen | Coming soon
+No touch screen | Execute the INSTALL_TOUCH script (exists in this repo /EXPEREMENTAL folder)
 No HDMI | N/A
 No SD card reader | N/A
 

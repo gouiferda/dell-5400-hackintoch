@@ -1,0 +1,23 @@
+#!/bin/bash
+
+efi_kexts_path="/Volumes/EFI/EFI/CLOVER/kexts/Other/"
+extentions_kexts_path="/Library/Extensions/"
+voodo_i2clean_kext_name="VoodooI2CELAN.kext"
+kexts_path="kexts"
+
+echo ""
+echo "INSTALL TOUCH SCREEN script"
+echo "This script will add touch screen support"
+echo ""
+echo "-- Mounting EFI"
+sudo diskutil mount EFI > /dev/null 2>&1
+echo "-- Deleting old Kexts from EFI kexts folder"
+sudo rm -rf $efi_kexts_path/$voodo_i2clean_kext_name
+echo "-- Deleting old Kexts from extensions folder"
+sudo rm -rf $extentions_kexts_path/$voodo_i2clean_kext_name
+echo "-- Unmounting EFI"
+sudo diskutil unmount EFI > /dev/null 2>&1
+sudo ./REBUILD
+echo ""
+echo "Finished, Reboot to see changes"
+echo ""
