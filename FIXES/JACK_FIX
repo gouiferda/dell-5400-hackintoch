@@ -4,7 +4,7 @@ efi_kexts_path="/Volumes/EFI/EFI/CLOVER/kexts/Other/"
 extentions_kexts_path="/Library/Extensions/"
 
 echo ""
-echo "FIXER script"
+echo "AUDIO FIXER script"
 echo "This script will fix the audio jack issue"
 echo ""
 echo "-- Mounting EFI"
@@ -13,13 +13,7 @@ echo "-- Copying Kexts from EFI to extensions folder"
 sudo cp -R $efi_kexts_path* $extentions_kexts_path
 echo "-- Unmounting EFI"
 sudo diskutil unmount EFI > /dev/null 2>&1
-echo "-- Repair permissions and rebuilding cache"
-sudo chmod -Rf 755 /S*/L*/E* > /dev/null 2>&1
-sudo chmod -Rf 755 /L*/E* > /dev/null 2>&1
-sudo chown -Rf 0:0 /S*/L*/E* > /dev/null 2>&1
-sudo chown -Rf 0:0 /L*/E* > /dev/null 2>&1
-sudo kextcache -i / > /dev/null 2>&1
+sudo ./RES/REBUILD
 echo ""
-echo "FINISHED"
-echo "It is recommended to reboot to see effects"
+echo "Finished, Reboot to see changes"
 echo ""

@@ -1,4 +1,4 @@
-# dell-5400-hackintoch
+# Dell-5400-hackintoch
 
 Guide and EFI Folder (Clover), to how to install a fully functioning Hackintoch of macOS Catalina on Dell latitude 5400
 
@@ -71,12 +71,12 @@ Important: The tutorial video below has the exact same process that works for th
 ------------ | -------------
 No Wifi and bluetooth | <ul><li>You will need an external wifi usb adapter (Like TL-WN725N)</li><li>or Replace the internal wifi card with a supported one</li></ul>
 How can I dual boot with windows or linux | Watch the tutorial video
-Can't boot after changing EFI | Copy EFI folder (in this repo) to a USB and boot from it
-Audio jack Issues | Execute the FIXER script (in this repo) and type your password then enter
+Can't boot after changing EFI | Copy EFI folder (exists in this repo) to a USB and boot from it
 Laptop doesn't sleep after closing (lid switch) | Apply recommended bios mentioned above
+Audio jack Issues | Execute the JACK_FIX script (exists in this repo /FIXES folder)
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
-Mouse double clicking | N/A
-No touch screen | N/A
+Mouse double clicking | Execute the MOUSE_FIX script (exists in this repo /FIXES folder), The script will ruin the trackpad to revert its changes execute the REVER_MOUSE script
+No touch screen | Coming soon
 No HDMI | N/A
 No SD card reader | N/A
 
