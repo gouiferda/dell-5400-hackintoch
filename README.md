@@ -8,7 +8,7 @@ EFI Folder (Clover), and how to install a fully functioning Hackintoch of macOS 
 - EFI Folder (Clover) required for this process is included in this repository
 - This guide and anything in the repo comes with no warranty. Use at your own risk! I am not responsible if you broke your hackintosh os
 
-<img align="right" width="400" height="400" src="https://i.imgur.com/OtSV3bk.png">
+<img align="right" width="400" height="200" src="https://i.imgur.com/OtSV3bk.png">
 
 ## Table of contents
 
