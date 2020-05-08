@@ -3,7 +3,7 @@
 efi_kexts_path="/Volumes/EFI/EFI/CLOVER/kexts/Other/"
 extentions_kexts_path="/Library/Extensions/"
 voodo_i2clean_kext_name="VoodooI2CELAN.kext"
-kexts_path="kexts"
+kexts_path="kexts/touchscreen"
 
 echo ""
 echo "INSTALL TOUCH SCREEN script"
