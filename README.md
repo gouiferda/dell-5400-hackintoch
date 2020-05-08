@@ -1,12 +1,12 @@
 # Dell-5400-hackintoch
 
-Guide and EFI Folder (Clover), to how to install a fully functioning Hackintoch of macOS Catalina on Dell latitude 5400
+EFI Folder (Clover), and how to install a fully functioning Hackintoch of macOS Catalina on Dell latitude 5400
 
-**:warning: Important/Disclaimer:**
+**:warning: Disclaimer:**
+- Always back up your data, and have another machine just in case one broke
 - Watch the tutorial video linked below to have an idea about the process
 - EFI Folder (Clover) required for this process is included in this repository
-- This guide and anything in the repo comes with no warranty. Use at your own risk! I am not responsible if you broke your hackingtosh os
-- Always back up your data, and have another machine just in case one broke ;)
+- This guide and anything in the repo comes with no warranty. Use at your own risk! I am not responsible if you broke your hackintosh os
 
 ![Image](https://i.imgur.com/OtSV3bk.png)
 
@@ -72,12 +72,11 @@ Important: The tutorial video below has the exact same process that works for th
 ------------ | -------------
 No Wifi and bluetooth | <ul><li>You will need an external wifi usb adapter (Like TL-WN725N)</li><li>or Replace the internal wifi card with a supported one</li></ul>
 How can I dual boot with windows or linux | Watch the tutorial video
-Can't boot after changing EFI | Copy EFI folder (exists in this repo) to a USB and boot from it
+Can't boot after changing EFI | Copy EFI folder (exists in this repo) to a USB and rename USB "EFI" then boot from it
 Laptop doesn't sleep after closing (lid switch) | Apply recommended bios mentioned above
-Audio jack Issues | Execute the JACK_FIX script (exists in this repo /FIXES folder)
+Audio jack Issues | Execute the JACK_FIX script (exists in this repo /FIXES folder) ``` cd TOOLS;sudo ./JACK_FIX ```
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
-Mouse double clicking |  <ul><li>The script will ruin the trackpad, but you can revert changes later.</li><li>Open this repo in terminal:</li><li>cd DELL-5400-HACKINTOCH/FIXES</li><li>./MOUSE_FIX</li><li>To revert changes:</li><li>./REVERT_MOUSE</li></ul> 
-No touch screen |  <ul><li>Open this repo in terminal:</li><li>cd DELL-5400-HACKINTOCH/EXPEREMENTAL</li><li>./INSTALL_TOUCH</li></ul>
+No touch screen |  Open this repo in terminal: ``` cd TOOLS;sudo ./JACK_FIX ```
 No HDMI | N/A
 No SD card reader | N/A
 
