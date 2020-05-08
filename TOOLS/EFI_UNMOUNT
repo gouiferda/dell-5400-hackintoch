@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "-- Unmounting EFI"
+sudo diskutil unmount EFI > /dev/null 2>&1

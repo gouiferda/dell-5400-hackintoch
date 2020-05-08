@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "-- Mounting EFI"
+sudo diskutil mount EFI > /dev/null 2>&1

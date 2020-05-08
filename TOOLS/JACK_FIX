@@ -1,0 +1,17 @@
+#!/bin/bash
+
+efi_kexts_path="/Volumes/EFI/EFI/CLOVER/kexts/Other/"
+extentions_kexts_path="/Library/Extensions/"
+
+echo ""
+echo "AUDIO FIXER script"
+echo "This script will fix the audio jack issue"
+echo ""
+sudo ./EFI_MOUNT
+echo "-- Copying Kexts from EFI to extensions folder"
+sudo cp -R $efi_kexts_path* $extentions_kexts_path
+sudo ./EFI_UNMOUNT
+sudo ./REBUILD_CACHE
+echo ""
+echo "Finished, Reboot to see changes"
+echo ""
