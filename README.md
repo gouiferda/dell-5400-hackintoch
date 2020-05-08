@@ -14,7 +14,7 @@ EFI Folder (Clover), and how to install a fully functioning Hackintoch of macOS 
 
 - [Requirements](#requirements)
 - [How/Tutorial](#howtutorial)
-- [Recommended BIOS settings](#recommended-bios-settings)
+- [Mandatory BIOS settings](#recommended-bios-settings)
 - [Issues](#issues)
 - [What works](#what-works)
 
@@ -33,38 +33,23 @@ Important: The tutorial video below has the exact same process that works for th
 
 - https://www.youtube.com/watch?v=eFnZF3rgS0o
 
-## Recommended BIOS settings
+## :warning: Mandatory BIOS settings
 
-**General**
-- Boot Sequence:
-    - Boot List Option = UEFI (-> Boot Sequence list will be set accordingly) 
-- UEFI Boot Path Security:
-    - Never (or whatever other value)
 
-**System Configuration**
-- SATA Operation = AHCI
-- USB PowerShare:
-    - Enable USB PowerShare = On 
-- Keyboard illumination:
-    - Bright = On (or any desired value) 
-- Keyboard Backlight on AC:
-    - Any desired setting 
-- Keyboard Backlight on Battery:
-    - Any desired setting
-
-**Video**
-- LCD Brightness = Whatever settings you prefer
-
-**Security**
-- SMM Security Mitigator = Off
-
-**Power Management**
-- Enable lid Switch = On
-- Primary Battery Charge Configuration = Express Charge (or any other choice) 
-
-**Virtualization Support**
-- VT for Direct I/O = Disabled 
-
+Main Section | Option | Recommended value
+------------ | ------------- | -------------
+General | Boot Sequence |  Boot List Option = UEFI (-> Boot Sequence list will be set accordingly) 
+General | UEFI Boot Path Security |  Never (or whatever other value)
+System Configuration | SATA Operation | AHCI
+System Configuration | USB PowerShare | Enable USB PowerShare = On 
+System Configuration | Keyboard illumination | Bright = On (or any desired value) 
+System Configuration | Keyboard Backlight on AC | Any desired setting 
+System Configuration | Keyboard Backlight on Battery | Any desired setting
+Video | LCD Brightness | Whatever settings you prefer
+Security | SMM Security Mitigator | Off
+Power Management | Enable lid Switch | On
+Power Management | Primary Battery Charge Configuration | Express Charge (or any other choice) 
+Virtualization Support | VT for Direct I/O |  Disabled
 
 ## Issues
 
@@ -73,7 +58,7 @@ Important: The tutorial video below has the exact same process that works for th
 No Wifi and bluetooth | <ul><li>You will need an external wifi usb adapter (Like TL-WN725N)</li><li>or Replace the internal wifi card with a supported one</li></ul>
 How can I dual boot with windows or linux | Watch the tutorial video
 Can't boot after changing EFI | Copy EFI folder (exists in this repo) to a USB and rename USB "EFI" then boot from it
-Laptop doesn't sleep after closing (lid switch) | Apply recommended bios mentioned above
+Laptop doesn't sleep after closing (lid switch) | Apply mandatory bios settings mentioned above
 Audio jack Issues | Execute the JACK_FIX script (exists in this repo /FIXES folder) ``` cd TOOLS;sudo ./JACK_FIX ```
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
 No touch screen |  Open this repo in terminal: ``` cd TOOLS;sudo ./JACK_FIX ```
