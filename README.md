@@ -16,6 +16,7 @@ EFI Folder (Clover), and how to install a fully functioning Hackintoch of macOS 
 - [How/Tutorial](#howtutorial)
 - [Mandatory BIOS settings](#recommended-bios-settings)
 - [Issues](#issues)
+- [Bugs](#bugs)
 - [What works](#what-works)
 
 ## Requirements
@@ -64,6 +65,13 @@ Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
 No touch screen |  Open this repo in terminal: ``` cd TOOLS;sudo ./JACK_FIX ```
 No HDMI | N/A
 No SD card reader | N/A
+
+## Bugs
+
+Bug | Fix
+------------ | -------------
+Audio cut suddenly | System preferences > Sound
+Mouse double click | N/A
 
 ## What works
 
