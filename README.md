@@ -62,8 +62,8 @@ Laptop doesn't sleep after closing (lid switch) | Apply mandatory bios settings 
 Audio jack Issues | Execute the JACK_FIX script (exists in this repo /FIXES folder) ``` cd TOOLS;sudo ./JACK_FIX ```
 Audio cuts suddenly sometimes | System preferences > Sound
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
+No touch screen | Open this repo in terminal: ``` cd TOOLS;sudo ./INSTALL_TOUCH ```
 Mouse double clicks instead of single click sometimes | N/A
-No touch screen |  Open this repo in terminal: ``` cd TOOLS;sudo ./INSTALL_TOUCH ```
 No HDMI | N/A
 No SD card reader | N/A
 
