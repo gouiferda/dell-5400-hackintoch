@@ -16,7 +16,6 @@ EFI Folder (Clover), and how to install a fully functioning Hackintoch of macOS 
 - [How/Tutorial](#howtutorial)
 - [Mandatory BIOS settings](#recommended-bios-settings)
 - [Issues](#issues)
-- [Bugs](#bugs)
 - [What works](#what-works)
 
 ## Requirements
@@ -61,17 +60,12 @@ How can I dual boot with windows or linux | Watch the tutorial video
 Can't boot after changing EFI | Copy EFI folder (exists in this repo) to a USB and rename USB "EFI" then boot from it
 Laptop doesn't sleep after closing (lid switch) | Apply mandatory bios settings mentioned above
 Audio jack Issues | Execute the JACK_FIX script (exists in this repo /FIXES folder) ``` cd TOOLS;sudo ./JACK_FIX ```
+Audio cuts suddenly sometimes | System preferences > Sound
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
-No touch screen |  Open this repo in terminal: ``` cd TOOLS;sudo ./JACK_FIX ```
+Mouse double clicks instead of single click sometimes | N/A
+No touch screen |  Open this repo in terminal: ``` cd TOOLS;sudo ./INSTALL_TOUCH ```
 No HDMI | N/A
 No SD card reader | N/A
-
-## Bugs
-
-Bug | Fix
------------- | -------------
-Audio cut suddenly | System preferences > Sound
-Mouse double click | N/A
 
 ## What works
 
