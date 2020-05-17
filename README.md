@@ -63,7 +63,6 @@ Audio jack Issues | Execute the JACK_FIX script (exists in this repo /FIXES fold
 Audio cuts suddenly sometimes | System preferences > Sound
 Issues with trackpad (no zoom​ gesture, lag) | Use a usb mouse
 No touch screen | Open this repo in terminal: ``` cd TOOLS;sudo ./INSTALL_TOUCH ```
-Mouse double clicks instead of single click sometimes | N/A
 No HDMI | N/A
 No SD card reader | N/A
 
