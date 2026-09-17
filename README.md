@@ -31,7 +31,7 @@ Backup your data | macOS installation requires formatting the entire drive
 
 Important: The tutorial video below has the exact same process that works for the Dell Latitude 5400, the only difference is with the EFI folder used, the EFI folder and the EFI Agent app that you will need for Dell 5400 is in this github repo.
 
-- https://www.youtube.com/watch?v=eFnZF3rgS0o
+- https://www.youtube.com/results?search_query=Dell+5400+hackintosh+Catalina
 
 ## :warning: Mandatory BIOS settings
 
